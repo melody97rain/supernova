@@ -26,9 +26,9 @@ echo -e "$Lyellow                    CONTACT TELEGRAM"$NC
 echo -e "$Lyellow                       @NiLphreakz"$NC
 echo -e "$green.........................................................."$NC
 echo ''
-echo -e "$Lyellow                       Wait 6 Seconds!"$NC
+echo -e "$Lyellow                       Wait 5 Seconds!"$NC
 echo -e "$green.........................................................."$NC
-sleep 6
+sleep 5
 clear
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
