@@ -87,11 +87,11 @@ echo "clear" >> .profile
 echo "menu" >> .profile
 
 # // install netstat
-apt install net-tools
+apt install net-tools -y
 
 # // install iftop & htop
-apt install iftop
-apt install htop
+apt install iftop -y
+apt install htop -y
 
 # // install webserver
 apt -y install nginx
